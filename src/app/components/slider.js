@@ -18,14 +18,24 @@ export default function Slider() {
 
   return (
     <div ref={sliderRef} className="keen-slider">
-      <div className="number-slide1">
-        <Image src="/img/pic1.jpg" width={600} height={500} alt="img1" />
+      <div className="keen-slider__slide number-slide1">
+        <Image src="/img/pic1.jpg" width={600} height={700} alt="img1" />
       </div>
-      <div className="keen-slider__slide number-slide2">2</div>
-      <div className="keen-slider__slide number-slide3">3</div>
-      <div className="keen-slider__slide number-slide4">4</div>
-      <div className="keen-slider__slide number-slide5">5</div>
-      <div className="keen-slider__slide number-slide6">6</div>
+      <div className="keen-slider__slide number-slide2">
+        <Image src="/img/pic2.jpg" width={600} height={700} alt="img2" />
+      </div>
+      <div className="keen-slider__slide number-slide3">
+        <Image src="/img/pic3.jpg" width={600} height={700} alt="img3" />
+      </div>
+      <div className="keen-slider__slide number-slide4">
+        <Image src="/img/pic7.jpg" width={600} height={700} alt="img7" />
+      </div>
+      <div className="keen-slider__slide number-slide5">
+        <Image src="/img/pic5.jpg" width={600} height={700} alt="img5" />
+      </div>
+      <div className="keen-slider__slide number-slide6">
+        <Image src="/img/pic6.jpg" width={600} height={700} alt="img6" />
+      </div>
     </div>
   );
 }
