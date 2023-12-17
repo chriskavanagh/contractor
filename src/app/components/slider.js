@@ -8,18 +8,18 @@ import Image from "next/image";
 
 export default function Slider() {
   const [sliderRef] = useKeenSlider({
+    loop: true,
     mode: "free-snap",
     slides: {
       origin: "center",
-      perView: 2,
-      spacing: 15,
     },
+    selector: ".first > .keen-slider__slide",
   });
 
   return (
-    <div ref={sliderRef} className="keen-slider">
+    <div ref={sliderRef} className="keen-slider first">
       <div className="keen-slider__slide number-slide1">
-        <Image src="/img/pic1.jpg" width={600} height={700} alt="img1" />
+        <Image src="/img/pic1.jpg" fill alt="img1" />
       </div>
       <div className="keen-slider__slide number-slide2">
         <Image src="/img/pic2.jpg" width={600} height={700} alt="img2" />

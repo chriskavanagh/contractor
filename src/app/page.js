@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Slider from "./components/slider";
 import styles from "./page.module.css";
 
