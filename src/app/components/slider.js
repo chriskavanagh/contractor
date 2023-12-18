@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import "../globals.css";
 //import * as pics from "/img";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
@@ -22,10 +23,10 @@ export default function Slider() {
         <Image src="/img/pic1.jpg" fill alt="img1" />
       </div>
       <div className="keen-slider__slide number-slide2">
-        <Image src="/img/pic2.jpg" width={600} height={700} alt="img2" />
+        <Image src="/img/pic2.jpg" alt="img2" />
       </div>
       <div className="keen-slider__slide number-slide3">
-        <Image src="/img/pic3.jpg" width={600} height={700} alt="img3" />
+        <Image src="/img/pic3.jpg" alt="img3" />
       </div>
       <div className="keen-slider__slide number-slide4">
         <Image src="/img/pic7.jpg" width={600} height={700} alt="img7" />
