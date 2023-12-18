@@ -102,6 +102,8 @@ ul {
 }
 li {
   padding: 0 1rem 0 1rem;
+  font-size: 15px;
+  color: rgb(186, 141, 27);
 }
 .nav__wrapper {
   margin-bottom: 0px;
@@ -110,8 +112,11 @@ li {
 }
 .logo {
   font-family: "Cascadia Mono";
+  color: rgb(112, 87, 23);
 }
 span {
   font-size: 19px;
   font-style: italic;
+  color: rgb(152, 111, 8);
+  text-decoration: underline;
 }
