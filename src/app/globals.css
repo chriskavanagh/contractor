@@ -102,7 +102,7 @@ ul {
   overflow: hidden;
 }
 li {
-  padding: 0 1rem 0 1rem;
+  margin: 0 1rem 0 1rem;
   font-size: 15px;
   color: rgb(112, 87, 23);
   cursor: pointer;
@@ -110,7 +110,7 @@ li {
 li:hover {
   color: #cd7324e3;
   font-size: 16px;
-  background-color: burlywood;
+  /* background-color: burlywood; */
 }
 .active {
   color: rgb(255, 0, 0);
