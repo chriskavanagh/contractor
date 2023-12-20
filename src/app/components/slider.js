@@ -2,7 +2,6 @@
 
 import React from "react";
 import "../globals.css";
-//import * as pics from "/img";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import Image from "next/image";

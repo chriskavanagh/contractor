@@ -99,15 +99,26 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
+  overflow: hidden;
 }
 li {
   padding: 0 1rem 0 1rem;
   font-size: 15px;
-  color: rgb(186, 141, 27);
+  color: rgb(112, 87, 23);
+  cursor: pointer;
+}
+li:hover {
+  color: #cd7324e3;
+  font-size: 16px;
+  background-color: burlywood;
+}
+.active {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
 }
 .nav__wrapper {
   margin-bottom: 0px;
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.663);
   padding: 1rem 1rem 1rem 1rem;
 }
 .logo {
