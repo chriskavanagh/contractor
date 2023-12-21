@@ -14,8 +14,8 @@ export default function Navbar({ children }) {
         <div className="logo">
           <span>Nester</span> Construction LLC
         </div>
-        <ul>
-          <li>
+        <ul className="navbar__list">
+          <li className="nav__item">
             <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
               Home
             </Link>

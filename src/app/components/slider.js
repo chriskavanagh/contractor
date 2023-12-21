@@ -9,7 +9,9 @@ import Image from "next/image";
 export default function Slider() {
   const [sliderRef] = useKeenSlider({
     loop: true,
-    mode: "free-snap",
+    mode: "snap",
+    dragSpeed: 1,
+    initial: 1,
     slides: {
       origin: "center",
     },
@@ -19,10 +21,10 @@ export default function Slider() {
   return (
     <div ref={sliderRef} className="keen-slider first">
       <div className="keen-slider__slide number-slide1">
-        <Image src="/img/pic1.jpg" fill alt="img1" />
+        <Image src="/img/pic2.jpg" fill priority={true} alt="img1" />
       </div>
       <div className="keen-slider__slide number-slide2">
-        <Image src="/img/pic2.jpg" fill alt="img2" />
+        <Image src="/img/pic1.jpg" fill alt="img2" />
       </div>
       <div className="keen-slider__slide number-slide3">
         <Image src="/img/pic3.jpg" fill alt="img3" />

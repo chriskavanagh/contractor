@@ -104,7 +104,7 @@ ul {
 li {
   margin: 0 1rem 0 1rem;
   font-size: 15px;
-  color: rgb(112, 87, 23);
+  color: #3b120e;
   cursor: pointer;
 }
 li:hover {
@@ -113,8 +113,9 @@ li:hover {
   /* background-color: burlywood; */
 }
 .active {
-  color: rgb(255, 0, 0);
+  color: rgba(255, 136, 0, 0.997);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 .nav__wrapper {
   margin-bottom: 0px;
@@ -130,4 +131,26 @@ span {
   font-style: italic;
   color: rgb(152, 111, 8);
   text-decoration: underline;
+}
+
+/* Bottom Menu */
+.btmmenu__wrapper {
+  min-width: 100vw;
+  background-color: #4c4c4c;
+  /* padding-bottom: 15px;
+  padding-top: 15px; */
+}
+.btmmenu .menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  min-height: 60px;
+  overflow: hidden;
+}
+.btmmenu .menu__item {
+  color: #ecf2f5a9;
+  font-weight: bold;
 }
