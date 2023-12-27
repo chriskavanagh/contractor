@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import "../globals.css";
+import styles from "../styles"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -9,8 +10,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 export default function Navbar({ children }) {
   const pathname = usePathname();
   return (
-    <section className="nav__wrapper">
-      <nav className="primary__nav">
+    <section className={styles.nav__wrapper}>
+    <nav className={styles.primary__nav}>
         <div className="logo">
           <span>Nester</span> Construction LLC
         </div>
