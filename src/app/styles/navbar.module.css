@@ -1,0 +1,50 @@
+.primary__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__wrapper {
+  margin-bottom: 0px;
+  background-color: rgba(211, 211, 211, 0.663);
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: "Cascadia Mono";
+  color: rgb(112, 87, 23);
+}
+
+.logo__name {
+  font-size: 19px;
+  font-style: italic;
+  color: rgb(152, 111, 8);
+  text-decoration: underline;
+}
+
+.nav__item {
+  margin: 0 2rem 0 1rem;
+  font-size: 15px;
+  color: rgb(112, 87, 23);
+  cursor: pointer;
+}
+
+.nav__hover:hover {
+  color: #cd7324e3;
+  font-size: 17px;
+  /* background-color: burlywood; */
+}
+
+.active {
+  color: rgba(255, 136, 0, 0.997);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}

@@ -1,0 +1,26 @@
+.btmmenu__wrapper {
+  min-width: 100vw;
+  background-color: gray;
+  font-family: "Source Code Pro";
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* padding-bottom: 15px;
+    padding-top: 15px; */
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  min-height: 60px;
+  overflow: hidden;
+}
+
+.menu__item {
+  color: #ecf2f5eb;
+  font-weight: bold;
+  margin: 0 2rem 0 2rem;
+}
