@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 //import "../globals.css";
 import styles from "../styles/navbar.module.css";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AiFillHome, AiFillFormatPainter, AiFillPhone, AiOutlineTeam } from "react-icons/ai";

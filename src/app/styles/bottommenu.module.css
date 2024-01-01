@@ -23,4 +23,15 @@
   color: #ecf2f5eb;
   font-weight: bold;
   margin: 0 2rem 0 2rem;
+  cursor: pointer;
 }
+
+.menu__item:hover {
+  color: blueviolet;
+  font-weight: 300;
+}
+
+/* #arm {
+  margin-left: 15px;
+  margin-top: 15px;
+} */
