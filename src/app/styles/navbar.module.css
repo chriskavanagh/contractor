@@ -40,7 +40,7 @@
 
 .nav__hover:hover {
   color: #cd7324e3;
-  font-size: 17px;
+  font-size: inherit;
   /* background-color: burlywood; */
 }
 
@@ -48,7 +48,4 @@
   color: rgba(255, 136, 0, 0.997);
   text-decoration: underline;
   text-decoration-thickness: 1px;
-}
-
-#arm {
 }
