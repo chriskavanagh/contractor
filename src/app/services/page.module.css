@@ -1,3 +1,28 @@
 .services {
+  background-color: #f8f8ff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Cardo", serif;
+  margin: 3rem 0 2.4rem 0;
+  font-weight: 300;
+}
+
+.content__wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 32%;
+  padding-bottom: 32%; /* Same as width, sets height */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  position: relative;
+  border: 2px blue solid;
+  text-align: center;
 }
