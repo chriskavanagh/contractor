@@ -12,6 +12,16 @@ export default function About() {
           laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
           nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
         </p>
+        <p className={styles.item}>
+          Sorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum et nam veniam,
+          laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
+          nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
+        </p>
+        <p className={styles.item}>
+          Jorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum et nam veniam,
+          laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
+          nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
+        </p>
       </div>
     </section>
   );

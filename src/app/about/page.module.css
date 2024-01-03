@@ -3,24 +3,33 @@
 }
 
 .top__header {
-  font-size: 36px;
+  font-size: 48px;
   color: #3b120e;
   text-align: center;
   font-family: "Cardo", serif;
-  margin: 2rem 0 2.2rem 0;
+  margin: 3rem 0 2.4rem 0;
   font-weight: 300;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .item {
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
   text-indent: 20px;
   line-height: 1.6;
   font-family: "Lato", sans-serif;
+}
+
+.item::first-letter {
+  font-weight: bolder;
+  color: rgb(141, 18, 18);
+  font-size: 25px;
+  font-style: italic;
 }
