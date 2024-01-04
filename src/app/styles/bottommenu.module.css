@@ -27,8 +27,8 @@
 }
 
 .menu__item:hover {
-  color: blueviolet;
-  font-weight: 300;
+  color: rgb(163, 7, 7);
+  font-weight: 100;
 }
 
 /* #arm {
