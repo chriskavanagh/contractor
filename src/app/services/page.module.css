@@ -8,15 +8,23 @@
   text-align: center;
   font-size: 48px;
   font-family: "Cardo", serif;
-  margin: 3rem 0 2.4rem 0;
+  margin: 4rem 0 7rem 0;
   font-weight: 300;
+  color: #3b120e;
+  text-decoration: underline;
 }
 
-.subtitle {
+/* .subtitle {
   font-size: 24px;
   font-family: "Cardo", serif;
   margin: 3rem 0 3rem 0;
   font-weight: 100;
+  color: #3b120e;
+} */
+
+.item__head {
+  padding-top: 9px;
+  padding-bottom: 17px;
 }
 
 .content__wrapper {
@@ -27,10 +35,10 @@
 
 .item {
   width: 32%;
-  padding-bottom: 32%; /* Same as width, sets height */
+  padding-bottom: 1%; /* Same as width, sets height */
   margin-bottom: 2%; /* (100-32*3)/2 */
   position: relative;
-  border: 2px blue solid;
+  border: 3px darkgray solid;
   text-align: center;
 }
 
