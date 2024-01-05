@@ -10,12 +10,12 @@ export default function About() {
         <p className={styles.item}>
           Nester Construction was founded in 1988 by Raymond Nester Sr and his son Darryl Nester. Mr
           (Raymond) Nester Sr sadly passed away in 2012. Darryl quickly took over the reins as
-          "President" of the business and kept it going.
+          "President" of the business and kept it running strong.
         </p>
         <p className={styles.item}>
-          Darryl who is still resides as the BOSS/President of the Company, still goes to work every
-          day. Although the Company had been successful for many years, Darryl took it to a higher
-          level of success which is going on today.
+          Darryl who is still resides as the <span className={styles.boss}>BOSS</span>/President of
+          the Company, still goes to work every day. Although the Company had been successful for
+          many years, Darryl took it to a higher level of success which is going on today.
         </p>
         <p className={styles.item}>
           Roofing was the bread and butter of the Company. Hundreds of houses and business have had
