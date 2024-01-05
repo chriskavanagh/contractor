@@ -17,7 +17,13 @@ export default function Services() {
         </div>
         <div className={styles.item}>
           <h3 className={styles.item__head}>Kitchens</h3>
-          <Image src="/img/newKitchen.jpg" height={500} width={400} alt="kitchens" />
+          <Image
+            src="/img/newKitchen.jpg"
+            priority={true}
+            height={500}
+            width={400}
+            alt="kitchens"
+          />
         </div>
         <div className={styles.item}>
           <h3 className={styles.item__head}>Bathrooms</h3>

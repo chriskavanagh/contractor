@@ -1,5 +1,7 @@
 .about {
-  background-color: #f8f8ff;
+  /* background-color: #f8f8ff; */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .top__header {
@@ -9,6 +11,7 @@
   font-family: "Cardo", serif;
   margin: 3rem 0 2.4rem 0;
   font-weight: 300;
+  text-decoration: underline;
 }
 
 .content {
@@ -27,9 +30,16 @@
   font-family: "Lato", sans-serif;
 }
 
-.item::first-letter {
+.item:first-of-type:first-letter {
   font-weight: bolder;
   color: rgb(141, 18, 18);
   font-size: 25px;
   font-style: italic;
 }
+
+/* .item::first-letter {
+  font-weight: bolder;
+  color: rgb(141, 18, 18);
+  font-size: 25px;
+  font-style: italic;
+} */
