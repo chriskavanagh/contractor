@@ -21,13 +21,16 @@ export default function Slider() {
   return (
     <div ref={sliderRef} className="keen-slider first">
       <div className="keen-slider__slide number-slide1">
-        <Image src="/img/pic2.jpg" fill priority={true} alt="img1" />
+        <Image src="/img/services/newKitchen.jpg" fill alt="img1" />
       </div>
-      <div className="keen-slider__slide number-slide2">
+      {/* <div className="keen-slider__slide number-slide2">
         <Image src="/img/pic1.jpg" fill alt="img2" />
-      </div>
+      </div> */}
       <div className="keen-slider__slide number-slide4">
         <Image src="/img/pic7.jpg" fill alt="img7" />
+      </div>
+      <div className="keen-slider__slide number-slide4">
+        <Image src="/img/shingles.jpg" fill alt="shingles" />
       </div>
     </div>
   );

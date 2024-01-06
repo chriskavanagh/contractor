@@ -8,19 +8,27 @@ export default function About() {
       </div>
       <div className={styles.content}>
         <p className={styles.item}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum et nam veniam,
-          laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
-          nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
+          Nester Construction was founded in 1988 by Raymond Nester Sr and his son Darryl Nester. Mr
+          (Raymond) Nester Sr sadly passed away in 2012. Darryl quickly took over the reins as
+          "President" of the business and kept it running strong.
         </p>
         <p className={styles.item}>
-          Sorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum et nam veniam,
-          laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
-          nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
+          Darryl who is still resides as the <span className={styles.boss}>BOSS</span>/President of
+          the Company, still goes to work every day. Although the Company had been successful for
+          many years, Darryl took it to a higher level of success which is going on today.
         </p>
         <p className={styles.item}>
-          Jorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum et nam veniam,
-          laborum dicta mollitia, ipsum ipsam, exercitationem provident illum! Et ducimus amet quis
-          nemo rem dignissimos quibusdam iusto. Omnis tempore corrupti nobis cum illo velit!
+          Roofing was the bread and butter of the Company. Hundreds of houses and business have had
+          roofs installed in the area thanks to Nester Construction.
+        </p>
+        <p className={styles.item}>
+          However, roofing is just one service the Company provides for customers. From remodelling,
+          painting, a new deck, kitchen or bathroom Nester Construction does it and does it well. We
+          even build new houses if that's your desire!
+        </p>
+        <p className={styles.item}>
+          A special "Thank You" to all our former, present, and future customers. It's because of
+          "you" the customer that Nester Construction is in business.
         </p>
       </div>
     </section>
