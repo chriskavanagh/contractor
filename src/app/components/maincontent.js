@@ -16,6 +16,14 @@ export default function MainContent() {
           Vinton, Bedford area for over 30 years. We also do work in North Carolina.
         </p>
         <br />
+        <p className={styles.para}>
+          Old, leaky roof? Your home needs a coat of fresh paint? Nester Construction/Remodelling
+          will install your new roof and/or paint your house so it looks indoors or outdoors. .
+        </p>
+        <br />
+        <p className={styles.para}>
+          Maybe you want a brand new house. Well, Nester builds houses too!
+        </p>
         <br />
         <p className={styles.para}>
           Don't wait any longer for your new kitchen or sunroom. Now is the time for a new addition
@@ -26,7 +34,7 @@ export default function MainContent() {
         <h2 className={styles.experts}>Call the Construction/Remodelling Experts Today</h2>
         <br />
         <span className={styles.phone}>
-          <AiFillPhone color="rgb(142, 5, 5)" /> 540-494-4652
+          <AiFillPhone color="rgb(142, 5, 5)" /> 540-397-8715
         </span>
       </div>
     </section>

@@ -20,7 +20,7 @@
 }
 
 .menu__item {
-  color: #ecf2f5eb;
+  color: white;
   font-weight: bold;
   margin: 0 2rem 0 2rem;
   cursor: pointer;
@@ -35,3 +35,7 @@
   margin-left: 15px;
   margin-top: 15px;
 } */
+
+.icon__space {
+  padding-right: 4px;
+}
