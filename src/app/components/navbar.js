@@ -1,10 +1,9 @@
 "use client";
 
 import React from "react";
-//import "../globals.css";
-import styles from "../styles/navbar.module.css";
-//import Image from "next/image";
+import "../globals.css";
 import Link from "next/link";
+import styles from "../styles/navbar.module.css";
 import { usePathname } from "next/navigation";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { AiFillHome, AiFillFormatPainter, AiFillPhone, AiOutlineTeam } from "react-icons/ai";
@@ -21,7 +20,7 @@ export default function Navbar({ children }) {
         <div>
           <span className={styles.free}>Free Quote/Call Us&nbsp;&nbsp;</span>
           <span className={styles.quote}>
-            <BsFillTelephoneInboundFill color="#C6011F" /> 540-397-8715
+            <BsFillTelephoneInboundFill color="#fcb900" /> 540-397-8715
           </span>
         </div>
         <ul className={styles.navbar__list}>

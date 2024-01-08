@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .nav__wrapper {
@@ -10,6 +11,7 @@
   background-color: rgba(211, 211, 211, 0.663);
   padding: 1rem 0 1rem 0;
   color: #ffd700;
+  box-sizing: border-box;
 }
 
 .navbar__list {
@@ -38,12 +40,14 @@
   font-size: 15px;
   color: rgb(112, 87, 23);
   cursor: pointer;
+  position: relative;
 }
 
 .nav__hover:hover {
   color: #cd7324e3;
   font-size: inherit;
-  /* background-color: burlywood; */
+  border: 1px red solid;
+  padding: 2px 1px;
 }
 
 .active {
@@ -54,7 +58,7 @@
 
 .quote {
   /* margin-left: 1rem; */
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: rgb(152, 111, 8);
 }
 
