@@ -45,7 +45,7 @@
 
 .nav__hover:hover {
   color: #cd7324e3;
-  font-size: inherit;
+  font-size: 15px;
   border: 1px red solid;
   padding: 2px 1px;
 }
