@@ -40,6 +40,10 @@ a {
   }
 } */
 
+.keen-slider {
+  position: relative;
+}
+
 .keen-slider__slide {
   /* height: 100vh; */
   width: 100vw;
