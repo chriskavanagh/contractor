@@ -5,7 +5,6 @@ import "../globals.css";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import Image from "next/image";
-import Overlay from "./overlay";
 
 export default function Slider() {
   const [sliderRef] = useKeenSlider({
@@ -35,7 +34,6 @@ export default function Slider() {
           <Image src="/img/shingles.jpg" fill alt="shingles" />
         </div>
       </div>
-      <Overlay />
     </>
   );
 }
