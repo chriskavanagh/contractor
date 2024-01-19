@@ -11,8 +11,8 @@ import Overlay from "./components/overlay";
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
-    const position = window.scrollY;
-    setScrollPosition(position);
+    //const position = window.scrollY;
+    setScrollPosition(window.scrollY);
   };
 
   useEffect(() => {
