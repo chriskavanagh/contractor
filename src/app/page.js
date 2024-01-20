@@ -12,7 +12,9 @@ export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
     //const position = window.scrollY;
-    setScrollPosition(window.scrollY);
+    const { scrollY } = window;
+    // window.scrollY/property of window
+    setScrollPosition(scrollY);
   };
 
   useEffect(() => {
@@ -26,7 +28,6 @@ export default function Home() {
     <main className={styles.main}>
       {/* <h2>scroll position: {scrollPosition}</h2> */}
       {scrollPosition === 0 && <Overlay />}
-      {/* {scrollPosition > 0 && <h2>Robbie Sucks Dick</h2>} */}
       <Slider />
       <MainContent />
     </main>
