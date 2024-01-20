@@ -2,8 +2,9 @@
   background-color: darkgray;
   /* color: rgb(130, 41, 41); */
   overflow-y: hidden;
-  min-width: 100vw;
-  color: var(--dark-accent);
+  min-width: 93vw;
+  color: rgb(142, 5, 5);
+  font-size: 14px;
 }
 .wrapper {
   display: flex;
