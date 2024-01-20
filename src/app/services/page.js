@@ -18,7 +18,7 @@ export default function Services() {
         <div className={styles.item}>
           <h3 className={styles.item__head}>Kitchens</h3>
           <Image
-            src="/img/newKitchen.jpg"
+            src="/img/services/newKitchen.jpg"
             priority={true}
             height={500}
             width={400}

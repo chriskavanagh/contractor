@@ -20,7 +20,7 @@ export default function Navbar({ children }) {
         <div>
           <span className={styles.free}>Free Quote/Call Us&nbsp;&nbsp;</span>
           <span className={styles.quote}>
-            <BsFillTelephoneInboundFill color="#fcb900" /> 540-397-8715
+            <BsFillTelephoneInboundFill color="#C6011F" /> 540-397-8715
           </span>
         </div>
         <ul className={styles.navbar__list}>
