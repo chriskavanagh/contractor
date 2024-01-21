@@ -3,7 +3,7 @@
   padding-left: 10px;
   padding-right: 10px;
   min-height: 100vh;
-  margin-bottom: 4rem;
+  overflow-x: hidden;
 }
 
 .title {
@@ -28,8 +28,8 @@
 }
 
 .item {
-  width: 31%;
-  padding-bottom: 1%; /* Same as width, sets height */
+  width: 32%;
+  padding-bottom: 32%; /* Same as width, sets height */
   margin-bottom: 2%; /* (100-32*3)/2 */
   position: relative;
   border: 4px darkgray solid;
