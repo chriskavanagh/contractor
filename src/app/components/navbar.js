@@ -17,12 +17,12 @@ export default function Navbar({ children }) {
         <div className={styles.logo}>
           <span className={styles.logo__name}>Nester</span> Construction LLC
         </div>
-        <div>
+        {/* <div>
           <span className={styles.free}>Free Quote/Call Us&nbsp;&nbsp;</span>
           <span className={styles.quote}>
             <BsFillTelephoneInboundFill color="#C6011F" /> 540-397-8715
           </span>
-        </div>
+        </div> */}
         <ul className={styles.navbar__list}>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">

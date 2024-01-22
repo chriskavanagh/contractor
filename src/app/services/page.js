@@ -12,6 +12,7 @@ export default function Services() {
       </div> */}
       <div className={styles.content__wrapper}>
         <div className={styles.item}>
+          <h3>Roofing</h3>
           <h3 className={styles.item__head}>Roofing</h3>
           <Image src="/img/services/roofer.jpg" fill /*height={500} width={400}*/ alt="roofer" />
         </div>

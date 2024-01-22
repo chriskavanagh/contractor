@@ -4,6 +4,7 @@
   padding-right: 10px;
   min-height: 100vh;
   overflow-x: hidden;
+  margin-bottom: 6rem;
 }
 
 .title {
@@ -13,7 +14,7 @@
   margin: 4rem 0 5rem 0;
   font-weight: 300;
   color: #3b120e;
-  /* text-decoration: underline; */
+  text-decoration: underline;
 }
 
 .item__head {
