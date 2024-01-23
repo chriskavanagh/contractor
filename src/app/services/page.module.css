@@ -5,6 +5,15 @@
   min-height: 100vh;
   overflow-x: hidden;
   margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .title {
@@ -20,12 +29,6 @@
 .item__head {
   padding-top: 9px;
   padding-bottom: 17px;
-}
-
-.content__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .item {

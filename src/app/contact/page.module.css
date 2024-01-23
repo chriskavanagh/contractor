@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 1;
+}
+
+.wrapper {
+  font-family: var(--font-roboto);
+}
+
+.header {
+  font-size: 48px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-roboto);
+  text-decoration: underline;
+  color: #3b120e;
+  font-weight: 300;
+}
+
+.content {
+  text-align: center;
+}
+
+.phone {
+  /* text-align: left; */
+}
+.phoneNum {
+  margin-left: 15px;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.emailTxt {
+  margin-top: 10px;
+}
+.email {
+  margin-left: 5px;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.emailIcon {
+  margin-right: 5px;
+}
+
+.phoneIcon {
+  margin-right: 5px;
+}
