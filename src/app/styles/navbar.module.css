@@ -69,3 +69,16 @@
   font-family: "Droid Sans Mono", sans-serif;
   margin-right: 1rem;
 }
+
+@media only screen and (max-width: 50em) {
+  .navbar__list {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto 0 auto;
+    font-size: 22px;
+  }
+  .logo__name {
+    font-size: 27px;
+  }
+}
