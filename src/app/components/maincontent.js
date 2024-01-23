@@ -18,7 +18,7 @@ export default function MainContent() {
         <br />
         <p className={styles.para}>
           Old, leaky roof? Your home needs a coat of fresh paint? Nester Construction/Remodelling
-          will install your new roof and/or paint your house so it looks indoors or outdoors. .
+          will install your new roof and/or paint your house so it looks indoors or outdoors.
         </p>
         <br />
         <p className={styles.para}>
