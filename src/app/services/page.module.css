@@ -53,7 +53,7 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: rgb(43, 4, 4);
   text-decoration: underline;
 }
 
@@ -61,7 +61,32 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 40em) {
+.free {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* .quote {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 5rem;
+} */
+
+.free__quote {
+  text-align: center;
+}
+
+.icon__wrapper {
+  font-size: 1.2rem;
+}
+
+.email__wrapper {
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
+
+@media only screen and (max-width: 50em) {
   .services {
     min-height: 100vh;
     display: flex;
@@ -70,7 +95,8 @@
   }
 
   .title {
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5em;
   }
 
   .content__wrapper {
@@ -81,8 +107,9 @@
   }
 
   .item {
-    width: 80%;
+    width: 95%;
     padding-bottom: 80%;
+    margin-bottom: 3rem;
   }
 
   .txtImg {

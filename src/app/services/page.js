@@ -1,5 +1,7 @@
 import styles from "./page.module.css";
+import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import Image from "next/image";
+import { MdEmail } from "react-icons/md";
 
 export default function Services() {
   return (
@@ -66,6 +68,15 @@ export default function Services() {
           <div className={styles.txtImg}>
             <h2>Remodelling</h2>
           </div>
+        </div>
+      </div>
+      <div className={styles.free__quote}>
+        <div className={styles.free}>Free Quote/Call Us&nbsp;&nbsp;</div>
+        <div className={styles.icon__wrapper}>
+          <BsFillTelephoneInboundFill color="#C6011F" /> 540-397-8715
+        </div>
+        <div className={styles.email__wrapper}>
+          <MdEmail color="#C6011F" /> darrylnester@gmail.com
         </div>
       </div>
     </section>
