@@ -40,8 +40,31 @@
   padding-right: 4px;
 }
 
-@media only screen and (max-width: 50em) {
-  .btmmenu__wrapper {
-    display: none;
+@media only screen and (max-width: 45em) {
+  .menu__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 16px;
+    /* justify-items: center; */
+  }
+  .icon__space {
+    padding-right: 2px;
+  }
+  .menu__item {
+    margin: 0 0.7rem 0 0.7rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 874px) {
+  .menu__list {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .menu__item {
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 17px;
   }
 }
