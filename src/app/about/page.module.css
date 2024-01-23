@@ -3,14 +3,17 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .top__header {
   font-size: 48px;
   color: #3b120e;
   text-align: center;
-  font-family: "Cardo", serif;
-  margin: 3rem 0 2.4rem 0;
+  font-family: var(--font-roboto);
+  margin: 3rem 0 4rem 0;
   font-weight: 300;
   text-decoration: underline;
 }
@@ -28,7 +31,8 @@
   color: #4c4c4c;
   text-indent: 20px;
   line-height: 1.6;
-  font-family: "Lato", sans-serif;
+  font-family: var(--font-roboto);
+  font-size: 20px;
 }
 
 .item:first-of-type:first-letter {

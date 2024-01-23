@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 1;
+}
+
+.wrapper {
+  font-family: var(--font-roboto);
+}
+
+.header {
+  font-size: 48px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
