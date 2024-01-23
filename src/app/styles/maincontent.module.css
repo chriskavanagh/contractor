@@ -3,6 +3,10 @@
   font-family: var(--font-roboto);
 }
 
+/* .roboto {
+  font-family: var(--font-roboto);
+} */
+
 .title {
   font-size: 46px;
   color: #3b120e;
