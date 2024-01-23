@@ -71,8 +71,23 @@
 }
 
 @media only screen and (max-width: 50em) {
+  .primary__nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+  }
   .navbar__list {
-    display: none;
+    margin: 0 auto 0 auto;
+    background-color: #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+  }
+  .nav__item {
+    font-size: 16px;
+    margin: 0 0.7rem 0 0.7rem;
   }
   .logo {
     margin: 0 auto 0 auto;
@@ -80,5 +95,6 @@
   }
   .logo__name {
     font-size: 27px;
+    text-align: center;
   }
 }
