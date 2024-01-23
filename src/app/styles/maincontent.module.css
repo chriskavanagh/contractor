@@ -60,7 +60,7 @@
   text-decoration-color: rgb(142, 5, 5);
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 45em) {
   .title {
     font-size: 24px;
   }
