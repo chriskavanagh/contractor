@@ -57,6 +57,6 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* color: rgb(99, 23, 23); */
   color: black;
+  text-decoration: underline;
 }
