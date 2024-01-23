@@ -11,7 +11,11 @@
 }
 
 .header {
-  font-size: 48px;
+  font-size: 3rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+
+.phone {
+  text-align: center;
 }
