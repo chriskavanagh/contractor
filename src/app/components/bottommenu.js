@@ -1,4 +1,5 @@
 import styles from "../styles/bottommenu.module.css";
+import "../globals.css";
 import { GiKitchenTap } from "react-icons/gi";
 import { BsHousesFill } from "react-icons/bs";
 import { PiWarehouseFill } from "react-icons/pi";
