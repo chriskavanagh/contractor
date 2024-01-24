@@ -8,7 +8,7 @@ export default function MainContent() {
       <div>
         <h1 className={styles.title}>Nester Contruction &amp; Remodeling</h1>
         <h2 className={styles.subtitle}>
-          Your Go To Source For All Construction/Remodeling Needs, And More!
+          Your Go To Source For All Construction/Remodeling Needs & More!
         </h2>
       </div>
       <div className={styles.decription}>
