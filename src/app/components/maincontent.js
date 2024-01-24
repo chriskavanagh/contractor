@@ -1,5 +1,6 @@
 import styles from "../styles/maincontent.module.css";
 import { AiFillPhone } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 export default function MainContent() {
   return (
@@ -36,6 +37,9 @@ export default function MainContent() {
         <span className={styles.phone}>
           <AiFillPhone color="rgb(142, 5, 5)" /> 540-397-8715
         </span>
+        <div className={styles.email}>
+          <MdEmail color="#C6011F" /> darrylnester@gmail.com
+        </div>
       </div>
     </section>
   );

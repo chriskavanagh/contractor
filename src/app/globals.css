@@ -107,70 +107,10 @@ a {
   background: linear-gradient(128deg, rgba(64, 76, 255, 1) 0%, rgba(174, 63, 255, 1) 100%);
 }
 
-/* Navbar */
-/* .primary__nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+@media only screen and (max-width: 45em) {
+  [class^="number-slide"],
+  [class*="number-slide"] {
+    height: 500px;
+    max-height: 100vh;
+  }
 }
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  overflow: hidden;
-}
-li {
-  margin: 0 1rem 0 1rem;
-  font-size: 15px;
-  color: #3b120e;
-  cursor: pointer;
-}
-li:hover {
-  color: #cd7324e3;
-  font-size: 16px;
-  /* background-color: burlywood; */
-
-/* .active {
-  color: rgba(255, 136, 0, 0.997);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-}
-.nav__wrapper {
-  margin-bottom: 0px;
-  background-color: rgba(211, 211, 211, 0.663);
-  padding: 1rem 1rem 1rem 1rem;
-}
-.logo {
-  font-family: "Cascadia Mono";
-  color: rgb(112, 87, 23);
-}
-span {
-  font-size: 19px;
-  font-style: italic;
-  color: rgb(152, 111, 8);
-  text-decoration: underline;
-} */
-
-/* Bottom Menu */
-/* .btmmenu__wrapper {
-  min-width: 100vw;
-  background-color: gray;
-  /* padding-bottom: 15px;
-  padding-top: 15px; 
-}
-.btmmenu .menu__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  width: 100%;
-  min-height: 60px;
-  overflow: hidden;
-}
-.btmmenu .menu__item {
-  color: #ecf2f5a9;
-  font-weight: bold;
-}
- */
