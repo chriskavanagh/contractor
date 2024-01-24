@@ -14,12 +14,12 @@ export default function MainContent() {
       <div className={styles.decription}>
         <p className={styles.para}>
           Nester Construction is a family owned business which has served the Roanoke Valley, Salem,
-          Vinton, Bedford area for over 30 years. We also do work in North Carolina.
+          Vinton, Bedford area for over 30 years. We also work in North Carolina.
         </p>
         <br />
         <p className={styles.para}>
           Old, leaky roof? Your home needs a coat of fresh paint? Nester Construction/Remodelling
-          will install your new roof and/or paint your house so it looks indoors or outdoors.
+          will install your new roof and/or paint your house so it looks great indoors and outdoors.
         </p>
         <br />
         <p className={styles.para}>
