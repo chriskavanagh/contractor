@@ -20,12 +20,21 @@
   justify-content: space-between;
   list-style: none;
   overflow: hidden;
+  margin: 0 3rem 0 auto;
+}
+
+.nav__item {
+  margin: 0 0.8rem 0 0.8rem;
+  font-size: 16px;
+  color: rgb(112, 87, 23);
+  cursor: pointer;
+  position: relative;
 }
 
 .logo {
   font-family: "Cascadia Mono";
   color: rgb(112, 87, 23);
-  margin-left: 1.6rem;
+  margin-left: 3rem;
 }
 
 .logo__name {
@@ -33,14 +42,6 @@
   font-style: italic;
   color: rgb(152, 111, 8);
   text-decoration: underline;
-}
-
-.nav__item {
-  margin: 0 2rem 0 1rem;
-  font-size: 16px;
-  color: rgb(112, 87, 23);
-  cursor: pointer;
-  position: relative;
 }
 
 .nav__hover:hover {
@@ -70,7 +71,7 @@
   margin-right: 1rem;
 }
 
-@media only screen and (max-width: 45em) {
+@media only screen and (max-width: 51em) {
   .primary__nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -78,13 +79,13 @@
   }
   .navbar__list {
     margin: 0 auto 0 auto;
-    background-color: #e5e5e5;
+    background-color: red;
     width: 100vw;
-    padding: 17px 10px 17px 10px;
+    padding: 17px 14px 17px 5px;
   }
   .nav__item {
-    font-size: 16px;
-    margin: 0 0.7rem 0 0.7rem;
+    font-size: 15px;
+    margin: 0 0.7rem 0 0.5rem;
   }
   .logo {
     margin: 0 auto 0 auto;
