@@ -23,7 +23,7 @@ export default function BottomMenu({ children }) {
             </span>
             Additions
           </li>
-          <li className={styles.menu__item}>
+          <li className={`${styles.menu__item} ${styles.remodel}`}>
             <span className={styles.icon__space}>
               <PiWarehouseFill color="#FFD700" />
             </span>
