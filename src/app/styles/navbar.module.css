@@ -17,7 +17,7 @@
 .navbar__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   overflow: hidden;
   margin: 0 3rem 0 auto;
