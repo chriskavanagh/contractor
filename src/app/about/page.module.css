@@ -1,11 +1,11 @@
 .about {
   /* background-color: #f8f8ff; */
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 5rem;
+  padding-left: 5px;
+  padding-right: 5px;
   display: flex;
   flex-direction: column;
   flex: 1;
+  box-sizing: border-box;
 }
 
 .top__header {
@@ -21,11 +21,11 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  row-gap: 20px;
 }
 
 .item {
-  width: 40%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
@@ -51,4 +51,13 @@
 
 .boss {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 45em) {
+  .top__header {
+    font-size: 38px;
+  }
+  .item {
+    font-size: 16px;
+  }
 }

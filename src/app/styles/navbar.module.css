@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .navbar__list {
