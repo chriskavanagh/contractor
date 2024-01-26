@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className={styles.about}>
       <div>
-        <h1 className={styles.top__header}>About Us</h1>
+        <h1 className={styles.top__header}>Our Story</h1>
       </div>
       <div className={styles.content}>
         <p className={styles.item}>

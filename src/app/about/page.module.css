@@ -18,7 +18,8 @@
   font-family: var(--font-roboto);
   margin: 3rem 0 4rem 0;
   font-weight: 300;
-  text-decoration: underline;
+  border-bottom: 2px black solid;
+  /* text-decoration: underline; */
 }
 
 .content {
@@ -26,10 +27,11 @@
   flex-direction: column;
   row-gap: 30px;
   width: 70%;
+  /* border: 1px red solid; */
 }
 
 .item {
-  width: 94%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
