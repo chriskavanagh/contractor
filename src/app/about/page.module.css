@@ -1,10 +1,13 @@
 .about {
   /* background-color: #f8f8ff; */
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
 
@@ -21,18 +24,19 @@
 .content {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 30px;
+  width: 70%;
 }
 
 .item {
-  width: 85%;
+  width: 94%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
   text-indent: 20px;
   line-height: 1.6;
   font-family: var(--font-roboto);
-  font-size: 19px;
+  font-size: 21px;
 }
 
 .item:first-of-type:first-letter {
@@ -40,6 +44,7 @@
   color: rgb(141, 18, 18);
   font-size: 25px;
   font-style: italic;
+  padding-right: 2px;
 }
 
 /* .item::first-letter {
@@ -55,9 +60,16 @@
 
 @media only screen and (max-width: 45em) {
   .top__header {
-    font-size: 38px;
+    font-size: 35px;
   }
   .item {
     font-size: 16px;
   }
+  .content {
+    width: 95%;
+    /* border: 1px solid red; */
+  }
+}
+
+@media only screen and (min-width: 46em) {
 }
