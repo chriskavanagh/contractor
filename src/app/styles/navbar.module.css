@@ -1,8 +1,9 @@
 .nav__wrapper {
   margin-bottom: 0px;
   background-color: rgba(211, 211, 211, 0.663);
-  padding: 1rem 0 1rem 0;
+  padding: 0rem 0 0rem 0;
   color: #ffd700;
+  min-width: 100%;
   box-sizing: border-box;
 }
 
@@ -11,16 +12,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* box-sizing: border-box; */
 }
 
 .navbar__list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
   overflow: hidden;
-  margin: 0 3rem 0 auto;
+  min-width: 100%;
+  /* margin: 0 3rem 0 auto; */
 }
 
 .nav__item {
