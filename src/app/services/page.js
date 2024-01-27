@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section className={styles.services}>
       <div>
-        <h1 className={styles.title}>Our Services</h1>
+        <h1 className={styles.title}>What We Do</h1>
       </div>
       {/* <div>
         <h3 className={`${styles.subtitle} ${styles.center__text}`}>Make Room For Your Memories</h3>

@@ -24,6 +24,7 @@
   font-weight: 300;
   color: #3b120e;
   text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
 
 .item__head {
@@ -71,4 +72,37 @@
 .email__wrapper {
   font-size: 1.2rem;
   margin-top: 4px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .content__wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.6rem;
+  }
+  .item {
+    width: 42%;
+    padding-bottom: 42%; /* Same as width, sets height */
+    margin-bottom: 5%;
+  }
+  .title {
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 769px) {
+  .content__wrapper {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 1.6rem; */
+  }
+  .item {
+    width: 85%;
+    padding-bottom: 85%; /* Same as width, sets height */
+    margin-bottom: 10%;
+  }
+  .title {
+    font-size: 35px;
+  }
 }
