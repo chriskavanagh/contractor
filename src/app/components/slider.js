@@ -22,7 +22,7 @@ export default function Slider() {
     <>
       <div ref={sliderRef} className="keen-slider first">
         <div className="keen-slider__slide number-slide1">
-          <Image src="/img/services/newKitchen.jpg" fill alt="img1" />
+          <Image src="/img/newKitchen.jpg" fill alt="img1" />
         </div>
         {/* <div className="keen-slider__slide number-slide2">
         <Image src="/img/pic1.jpg" fill alt="img2" />
