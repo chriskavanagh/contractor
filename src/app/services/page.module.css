@@ -56,13 +56,13 @@
 
 .free {
   font-size: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 0.5rem;
 }
 
 .free__quote {
   text-align: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .icon__wrapper {
