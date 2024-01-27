@@ -1,7 +1,7 @@
-import styles from "./page.module.css";
-import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import Image from "next/image";
+import styles from "./page.module.css";
 import { MdEmail } from "react-icons/md";
+import { BsFillTelephoneInboundFill } from "react-icons/bs";
 
 export default function Services() {
   return (
