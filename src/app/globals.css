@@ -54,9 +54,9 @@ a {
   }
 } */
 
-.keen-slider {
+/* .keen-slider {
   position: relative;
-}
+} */
 
 .keen-slider__slide {
   /* height: 100vh; */
@@ -105,6 +105,33 @@ a {
 .number-slide6 {
   background: rgb(64, 76, 255);
   background: linear-gradient(128deg, rgba(64, 76, 255, 1) 0%, rgba(174, 63, 255, 1) 100%);
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: red;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 25px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 25px;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
 }
 
 @media only screen and (max-width: 45em) {
