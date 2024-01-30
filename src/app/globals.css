@@ -111,8 +111,8 @@ a {
   position: relative;
 }
 .arrow {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -122,12 +122,12 @@ a {
 }
 
 .arrow--left {
-  left: 25px;
+  left: 65px;
 }
 
 .arrow--right {
   left: auto;
-  right: 25px;
+  right: 65px;
 }
 
 .arrow--disabled {
