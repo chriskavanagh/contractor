@@ -6,7 +6,7 @@ import { BsFillTelephoneInboundFill } from "react-icons/bs";
 export default function Services() {
   return (
     <section className={styles.services}>
-      <div>
+      <div className={styles.title__wrap}>
         <h1 className={styles.title}>What We Do</h1>
       </div>
       {/* <div>
