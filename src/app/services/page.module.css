@@ -3,7 +3,7 @@
   padding-left: 10px;
   padding-right: 10px;
   min-height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin-bottom: 6rem;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,9 @@
 .content__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: stretch;
+  column-gap: 10px;
+  row-gap: 2rem;
 }
 
 .title {
@@ -23,8 +25,7 @@
   margin: 4rem 0 5rem 0;
   font-weight: 300;
   color: #3b120e;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
+  border-bottom: 2px black solid;
 }
 
 .item__head {
