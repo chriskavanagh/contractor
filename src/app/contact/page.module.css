@@ -13,9 +13,9 @@
 .header {
   font-size: 48px;
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-family: var(--font-roboto);
-  text-decoration: underline;
+  border-bottom: 2px black solid;
   color: #3b120e;
   font-weight: 300;
 }
