@@ -14,7 +14,12 @@ export default function Services() {
       </div> */}
       <div className={styles.content__wrapper}>
         <div className={styles.item}>
-          <Image src="/img/services/roofer.jpg" fill /*height={500} width={400}*/ alt="roofer" />
+          <Image
+            src="/img/services/roofer.jpg"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            alt="roofer"
+          />
           <div className={styles.txtImg}>
             <h2>Roofing</h2>
           </div>
@@ -24,6 +29,7 @@ export default function Services() {
             src="/img/services/newKitchen.jpg"
             priority={true}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             /* height={500}
             width={400} */
             alt="kitchens"
@@ -36,6 +42,7 @@ export default function Services() {
           <Image
             src="/img/services/bathroom.jpeg"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             /*height={500} width={400}*/ alt="bathroom"
           />
           <div className={styles.txtImg}>
@@ -43,7 +50,12 @@ export default function Services() {
           </div>
         </div>
         <div className={styles.item}>
-          <Image src="/img/services/deck-1.jpg" fill /*height={500} width={400}*/ alt="services" />
+          <Image
+            src="/img/services/deck-1.jpg"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            alt="services"
+          />
           <div className={styles.txtImg}>
             <h2>Decks</h2>
           </div>
@@ -53,7 +65,8 @@ export default function Services() {
           <Image
             src="/img/services/addition.jpg"
             fill
-            /*height={500} width={400}*/ alt="addition"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            alt="addition"
           />
           <div className={styles.txtImg}>
             <h2>Additions</h2>
@@ -63,7 +76,8 @@ export default function Services() {
           <Image
             src="/img/services/remodeling.jpg"
             fill
-            /*height={500} width={400}*/ alt="remodelling"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            alt="remodelling"
           />
           <div className={styles.txtImg}>
             <h2>Remodelling</h2>
