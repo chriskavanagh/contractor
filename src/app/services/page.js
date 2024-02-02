@@ -26,7 +26,7 @@ export default function Services() {
         </div>
         <div className={styles.item}>
           <Image
-            src="/img/services/newKitchen.jpg"
+            src="/img/newKitchen.jpg"
             priority={true}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
