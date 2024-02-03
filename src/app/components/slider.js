@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
 import "../globals.css";
 import Image from "next/image";
+import React, { useState } from "react";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 
