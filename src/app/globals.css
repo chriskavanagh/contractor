@@ -144,7 +144,7 @@ a {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 90%;
+    top: 95%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     fill: rgba(237, 32, 32, 0.274);
