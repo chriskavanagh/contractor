@@ -117,7 +117,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: red;
+  fill: rgba(237, 32, 32, 0.274);
   cursor: pointer;
 }
 
@@ -144,10 +144,10 @@ a {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 60%;
+    top: 80%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    fill: rgba(255, 0, 0, 0.511);
+    fill: rgba(237, 32, 32, 0.274);
     cursor: pointer;
   }
 }
