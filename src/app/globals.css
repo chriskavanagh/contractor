@@ -147,7 +147,7 @@ a {
     top: 75%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    fill: rgba(255, 0, 0, 0.511);
+    fill: rgba(216, 211, 211, 0.511);
     cursor: pointer;
   }
 }
