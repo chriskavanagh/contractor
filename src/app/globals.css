@@ -117,7 +117,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: rgba(237, 32, 32, 0.534);
+  fill: rgba(237, 32, 32, 0.274);
   cursor: pointer;
 }
 
@@ -147,7 +147,7 @@ a {
     top: 80%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    fill: rgba(237, 32, 32, 0.534);
+    fill: rgba(237, 32, 32, 0.274);
     cursor: pointer;
   }
 }
