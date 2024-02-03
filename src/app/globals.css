@@ -144,10 +144,10 @@ a {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 80%;
+    top: 60%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    fill: red;
+    fill: rgba(255, 0, 0, 0.511);
     cursor: pointer;
   }
 }
