@@ -140,4 +140,14 @@ a {
     height: 500px;
     max-height: 100vh;
   }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: red;
+    cursor: pointer;
+  }
 }
