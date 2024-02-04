@@ -102,15 +102,15 @@
   .primary__nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 5px;
+    row-gap: 8px;
   }
 
   .navbar__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    row-gap: 5px;
-    /* align-items: center; */
+    row-gap: 2px;
+    align-items: center;
     /* margin: 0 auto 0 auto; */
   }
 
