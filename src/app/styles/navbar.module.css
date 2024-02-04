@@ -111,7 +111,7 @@
     grid-template-rows: 1fr;
     min-width: 100vw;
     background-color: #e5e5e5;
-    justify-items: center;
+    justify-items: stretch;
   }
 
   .nav__item {
