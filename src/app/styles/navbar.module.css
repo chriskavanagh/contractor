@@ -102,12 +102,12 @@
   .primary__nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
   .navbar__list {
-    padding-right: 3rem;
+    padding-right: 5px;
     /* margin: 0 auto 0 auto; */
   }
 
