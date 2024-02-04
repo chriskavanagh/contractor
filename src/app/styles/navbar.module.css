@@ -110,16 +110,15 @@
     min-width: 100vw;
     display: flex;
     flex-direction: row;
-
     row-gap: 2px;
-    align-items: center;
+    justify-content: center;
     /* margin: 0 auto 0 auto; */
   }
 
   .nav__item {
     font-size: 14px;
     margin: 0 2px 0 2px;
-    color: palevioletred;
+    color: green;
   }
   .logo {
     margin-left: auto;
