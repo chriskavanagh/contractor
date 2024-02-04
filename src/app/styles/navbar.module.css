@@ -100,10 +100,9 @@
 
 @media only screen and (min-width: 18.75em) and (max-width: 46em) {
   .primary__nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
   }
 
   .navbar__list {
