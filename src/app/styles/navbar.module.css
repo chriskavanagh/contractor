@@ -103,12 +103,13 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 8px;
+    min-width: 100%;
   }
 
   .navbar__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     row-gap: 2px;
     /* align-items: center; */
     margin: 0 auto 0 auto;
@@ -123,6 +124,6 @@
     margin-right: auto;
   }
   .logo__name {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
