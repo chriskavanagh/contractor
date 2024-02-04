@@ -111,14 +111,14 @@
     justify-content: space-around;
     min-width: 100vw;
     background-color: #e5e5e5;
-    width: 100%;
+    min-width: 100vw;
     /* margin: 0 auto 0 auto; */
   }
 
   .nav__item {
     font-size: 14px;
     padding: 0 2px 0 2px;
-    color: orange;
+    color: black;
   }
   .logo {
     margin-left: auto;
