@@ -107,18 +107,16 @@
   }
 
   .navbar__list {
-    min-width: 100vw;
-    display: flex;
-    flex-direction: row;
-    row-gap: 2px;
-    justify-content: center;
+    margin: 0 auto 0 auto;
+    background-color: #e5e5e5;
+    width: 100%;
     /* margin: 0 auto 0 auto; */
   }
 
   .nav__item {
     font-size: 14px;
-    margin: 0 2px 0 2px;
-    color: green;
+    padding: 0 2px 0 2px;
+    color: orange;
   }
   .logo {
     margin-left: auto;
