@@ -36,7 +36,7 @@ export default function Navbar({ children }) {
           </li>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/about" ? "active" : ""}`} href="/about">
-              <AiOutlineTeam /> About Us
+              <AiOutlineTeam /> About
             </Link>
           </li>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
