@@ -107,18 +107,17 @@
   }
 
   .navbar__list {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 1fr;
     min-width: 100vw;
     background-color: #e5e5e5;
-    min-width: 100vw;
-    /* margin: 0 auto 0 auto; */
+    justify-items: center;
   }
 
   .nav__item {
     font-size: 14px;
     /* padding: 0 2px 0 2px; */
-    color: black;
+    color: red;
   }
   .logo {
     margin-left: auto;
