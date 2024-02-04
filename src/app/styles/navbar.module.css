@@ -102,15 +102,15 @@
   .primary__nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 10px;
+    row-gap: 5px;
   }
 
   .navbar__list {
-    padding-right: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    row-gap: 5px;
+    /* align-items: center; */
     /* margin: 0 auto 0 auto; */
   }
 
@@ -119,9 +119,10 @@
     margin: 0 2px 0 2px;
   }
   .logo {
-    margin-left: 1px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .logo__name {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
