@@ -110,8 +110,8 @@
     flex-direction: row;
     justify-content: space-around;
     row-gap: 2px;
-    align-items: center;
-    /* margin: 0 auto 0 auto; */
+    /* align-items: center; */
+    margin: 0 auto 0 auto;
   }
 
   .nav__item {
