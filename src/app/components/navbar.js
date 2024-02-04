@@ -5,7 +5,7 @@ import "../globals.css";
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
 import { usePathname } from "next/navigation";
-import { BsFillTelephoneInboundFill } from "react-icons/bs";
+//import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { AiFillHome, AiFillFormatPainter, AiFillPhone, AiOutlineTeam } from "react-icons/ai";
 
 // ---Top Navbar---
