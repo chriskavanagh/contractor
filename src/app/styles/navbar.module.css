@@ -98,7 +98,7 @@
   }
 }
 
-@media only screen and (min-width: 18.75em) and (max-width: 47em) {
+@media only screen and (min-width: 18.75em) and (max-width: 46em) {
   .navbar__list {
     padding-right: 3rem;
     justify-content: space-around;
