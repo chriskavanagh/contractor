@@ -104,14 +104,12 @@
     grid-template-rows: 1fr 1fr;
     row-gap: 1px;
     min-width: 100vw;
+    justify-items: stretch;
   }
 
   .navbar__list {
-    display: grid;
-    grid-template-rows: 1fr;
     min-width: 100vw;
     background-color: #e5e5e5;
-    justify-items: stretch;
   }
 
   .nav__item {
