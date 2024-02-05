@@ -116,9 +116,9 @@
   }
 
   .nav__item {
-    font-size: 10px;
+    font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: rgb(128, 0, 96);
+    color: red;
   }
   .logo {
     margin-left: auto;
