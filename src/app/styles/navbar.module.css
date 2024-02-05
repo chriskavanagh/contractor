@@ -110,9 +110,9 @@
   .navbar__list {
     min-width: 100%;
     display: flex;
-    /* justify-content: center; */
+    flex-direction: row;
+    justify-content: space-around;
     padding-right: 0rem;
-    align-items: center;
   }
 
   .nav__item {
