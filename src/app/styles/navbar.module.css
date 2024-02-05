@@ -100,25 +100,26 @@
 
 @media only screen and (min-width: 18.75em) and (max-width: 46em) {
   .primary__nav {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    min-width: 100vw;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .navbar__list {
-    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding-right: 0rem;
-    margin-left: auto;
   }
 
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: rgb(43, 226, 186);
+    color: rgb(226, 43, 159);
   }
   .logo {
-    margin-left: auto;
+    z-left: auto;
     margin-right: auto;
   }
   .logo__name {
