@@ -109,12 +109,13 @@
   .navbar__list {
     min-width: 100%;
     padding-right: 0rem;
+    margin-left: auto;
   }
 
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: blueviolet;
+    color: rgb(43, 226, 186);
   }
   .logo {
     margin-left: auto;
