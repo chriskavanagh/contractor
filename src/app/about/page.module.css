@@ -69,8 +69,9 @@
   .item {
     font-size: 1rem;
     color: #4c4c4c;
+    min-width: 95%;
   }
   .content {
-    min-width: 90%;
+    min-width: 95%;
   }
 }
