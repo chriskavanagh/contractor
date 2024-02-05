@@ -111,14 +111,14 @@
     display: flex;
     /* justify-content: center; */
     padding-right: 0rem;
-    align-items: center;
+    /* align-items: center; */
     /* background-color: #e5e5e5; */
   }
 
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: red;
+    color: goldenrod;
   }
   .logo {
     margin-left: auto;
