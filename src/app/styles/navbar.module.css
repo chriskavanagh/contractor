@@ -97,6 +97,11 @@
 } */
 
 @media only screen and (min-width: 18.75em) and (max-width: 46em) {
+  .nav__wrapper {
+    min-width: 100%;
+    padding: 0.5rem 0 1.2rem 0;
+  }
+
   .primary__nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
