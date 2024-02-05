@@ -104,6 +104,7 @@
     grid-template-rows: 1fr 1fr;
     min-width: 100vw;
     justify-items: center;
+    align-items: start;
   }
 
   .navbar__list {
@@ -118,7 +119,7 @@
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: goldenrod;
+    color: salmon;
   }
   .logo {
     margin-left: auto;
