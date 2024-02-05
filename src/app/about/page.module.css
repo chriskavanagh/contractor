@@ -32,7 +32,7 @@
 }
 
 .item {
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
@@ -68,6 +68,7 @@
 
   .item {
     font-size: 1rem;
+    color: #4c4c4c;
   }
   .content {
     min-width: 90%;
