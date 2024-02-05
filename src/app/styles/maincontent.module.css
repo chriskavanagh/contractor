@@ -82,6 +82,7 @@
     font-size: 16px;
     padding-left: 15px;
     padding-right: 15px;
+    min-width: 95%;
   }
   .experts {
     font-size: 18px;
