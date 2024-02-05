@@ -110,7 +110,7 @@
   .navbar__list {
     min-width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     padding-right: 0rem;
     /* align-items: center; */
     /* background-color: #e5e5e5; */
@@ -119,7 +119,7 @@
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: skyblue;
+    color: darkgrey;
   }
   .logo {
     margin-left: auto;
