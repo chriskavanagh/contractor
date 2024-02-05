@@ -60,18 +60,15 @@
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 45em) {
+@media only screen and (min-width: 18.75em) and (max-width: 46em) {
   .top__header {
-    font-size: 35px;
+    font-size: 38px;
   }
+
   .item {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .content {
-    width: 95%;
-    /* border: 1px solid red; */
+    min-width: 90%;
   }
-}
-
-@media only screen and (min-width: 46em) {
 }

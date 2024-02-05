@@ -48,8 +48,6 @@
 .nav__hover:hover {
   color: #cd7324e3;
   font-size: 15px;
-  border: 1px red solid;
-  padding: 2px 1px;
 }
 
 .active {
@@ -118,10 +116,17 @@
     /* padding: 0 2px 0 2px; */
     color: rgb(113, 43, 226);
   }
+
+  .nav__hover:hover {
+    color: #cd7324e3;
+    font-size: 12px;
+  }
+
   .logo {
     margin-left: auto;
     margin-right: auto;
   }
+
   .logo__name {
     font-size: 21px;
   }
