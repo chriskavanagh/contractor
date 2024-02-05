@@ -102,9 +102,8 @@
   .primary__nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 1px;
     min-width: 100vw;
-    justify-items: stretch;
+    justify-content: space-between;
   }
 
   .navbar__list {
