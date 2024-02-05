@@ -107,15 +107,16 @@
   }
 
   .navbar__list {
-    min-width: 100vw;
-    background-color: #e5e5e5;
-    margin: 0 auto 0 auto;
+    min-width: 100%;
+    display: flex;
+    justify-items: center;
+    /* background-color: #e5e5e5; */
   }
 
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: red;
+    color: green;
   }
   .logo {
     margin-left: auto;
