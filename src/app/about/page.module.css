@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  min-width: 90%;
 }
 
 .top__header {
@@ -26,7 +27,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-  width: 70%;
+  width: 90%;
   /* border: 1px red solid; */
 }
 
