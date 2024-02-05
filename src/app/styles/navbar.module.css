@@ -116,10 +116,10 @@
   .nav__item {
     font-size: 12px;
     /* padding: 0 2px 0 2px; */
-    color: rgb(226, 43, 159);
+    color: rgb(113, 43, 226);
   }
   .logo {
-    z-left: auto;
+    margin-left: auto;
     margin-right: auto;
   }
   .logo__name {
