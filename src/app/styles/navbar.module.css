@@ -121,14 +121,14 @@
   }
 
   .nav__item {
-    font-size: 13px;
+    font-size: 12px;
     /* padding: 0 2px 0 2px; */
     color: #4c4c4c;
   }
 
   .nav__hover:hover {
     color: #cd7324e3;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .logo {
