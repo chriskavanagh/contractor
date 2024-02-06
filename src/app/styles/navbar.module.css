@@ -114,6 +114,10 @@
 
   .navbar__list {
     padding-right: 0rem;
+    min-width: 100vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: antiquewhite;
   }
 
   .nav__item {
