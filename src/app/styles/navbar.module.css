@@ -103,6 +103,7 @@
   }
 
   .primary__nav {
+    min-width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     /* min-width: 100vw; */
