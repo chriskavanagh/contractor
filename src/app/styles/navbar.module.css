@@ -107,6 +107,7 @@
     grid-template-rows: 1fr 1fr;
     /* min-width: 100vw; */
     justify-items: center;
+    align-items: center;
   }
 
   .navbar__list {
