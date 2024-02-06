@@ -21,22 +21,22 @@ export default function Navbar({ children }) {
         <ul className={styles.navbar__list}>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
-              <AiFillHome /> Home
+              <AiFillHome className={styles.icon__react} /> Home
             </Link>
           </li>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/services" ? "active" : ""}`} href="/services">
-              <AiFillFormatPainter /> Services
+              <AiFillFormatPainter className={styles.icon__react} /> Services
             </Link>
           </li>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/about" ? "active" : ""}`} href="/about">
-              <AiOutlineTeam /> About
+              <AiOutlineTeam className={styles.icon__react} /> About
             </Link>
           </li>
           <li className={`${styles.nav__item} ${styles.nav__hover}`}>
             <Link className={`link ${pathname === "/contact" ? "active" : ""}`} href="/contact">
-              <AiFillPhone /> Contact
+              <AiFillPhone className={styles.icon__react} /> Contact
             </Link>
           </li>
         </ul>

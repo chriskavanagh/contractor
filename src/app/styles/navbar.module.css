@@ -113,12 +113,16 @@
 
   .navbar__list {
     padding-right: 0rem;
+    min-width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
   }
 
   .nav__item {
     font-size: 14px;
     /* padding: 0 2px 0 2px; */
-    color: #4c4c4c;
+    color: white;
   }
 
   .nav__hover:hover {
@@ -129,9 +133,14 @@
   .logo {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0.6rem;
   }
 
   .logo__name {
     font-size: 21px;
+  }
+
+  .icon__react {
+    color: #ffd700;
   }
 }

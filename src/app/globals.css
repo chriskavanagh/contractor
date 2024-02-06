@@ -114,10 +114,10 @@ a {
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 50%;
+  top: 70%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: rgba(237, 32, 32, 0.274);
+  fill: rgba(211, 211, 211);
   cursor: pointer;
 }
 
@@ -139,15 +139,5 @@ a {
   [class*="number-slide"] {
     height: 400px;
     max-height: 100vh;
-  }
-  .arrow {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 85%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    fill: rgba(237, 32, 32, 0.274);
-    cursor: pointer;
   }
 }
