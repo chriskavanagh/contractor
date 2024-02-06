@@ -117,7 +117,7 @@ a {
   top: 70%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: rgba(211, 211, 211, 0.4);
+  fill: rgba(211, 211, 211);
   cursor: pointer;
 }
 
