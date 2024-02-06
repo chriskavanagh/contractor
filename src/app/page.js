@@ -6,7 +6,7 @@ import MainContent from "./components/maincontent";
 import styles from "./page.module.css";
 //import React, { useState, useEffect } from "react";
 //import { useRouter } from "next/navigation";
-import Overlay from "./components/overlay";
+//import Overlay from "./components/overlay";
 
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       {/* <h2>scroll position: {scrollPosition}</h2> */}
-      {scrollPosition === 0 && <Overlay />}
+      {/* {scrollPosition === 0 && <Overlay />} */}
       <Slider />
       <MainContent />
     </main>
