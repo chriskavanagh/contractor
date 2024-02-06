@@ -117,20 +117,20 @@
   }
 
   .nav__item {
-    font-size: 11px;
+    font-size: 13px;
     /* padding: 0 2px 0 2px; */
     color: #4c4c4c;
   }
 
   .nav__hover:hover {
     color: #cd7324e3;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .logo {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
   }
 
   .logo__name {
