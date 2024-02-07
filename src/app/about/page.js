@@ -27,8 +27,9 @@ export default function About() {
           even build new houses if that's your desire!
         </p>
         <p className={styles.item}>
-          A special "Thank You" to all our former, present, and future customers. It's because of
-          "you" the customer that Nester Construction is in business.
+          A special <span className={styles.thanks}>"Thank You"</span> to all our former, present,
+          and future customers. It's because of "you" the customer that Nester Construction is in
+          business.
         </p>
       </div>
     </section>

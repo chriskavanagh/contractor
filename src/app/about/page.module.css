@@ -27,12 +27,15 @@
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+  line-height: 1.6;
   /* border: 1px red solid; */
 }
 
 .item {
-  min-width: 95%;
+  min-width: 100%;
   margin-left: auto;
   margin-right: auto;
   color: #4c4c4c;
@@ -59,6 +62,10 @@
 
 .boss {
   text-decoration: underline;
+}
+
+.thanks {
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 18.75em) and (max-width: 46em) {
