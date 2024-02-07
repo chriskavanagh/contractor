@@ -101,8 +101,8 @@
   .burger {
     display: block;
     left: 10px;
-    top: 33px;
-    font-size: 25px;
+    top: 35.3px;
+    font-size: 28px;
     cursor: pointer;
   }
 
@@ -120,11 +120,12 @@
   .logo {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    font-size: 21px;
   }
 
   .logo__name {
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .icon__react {
