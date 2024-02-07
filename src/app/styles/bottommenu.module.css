@@ -42,6 +42,11 @@
 }
 
 @media only screen and (min-width: 18.75em) and (max-width: 46em) {
+  .btmmenu__wrapper {
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+
   .menu__list {
     display: grid;
     grid-template-columns: 1fr 1fr;

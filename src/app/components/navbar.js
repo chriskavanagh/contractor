@@ -13,6 +13,9 @@ export default function Navbar({ children }) {
   const pathname = usePathname();
   return (
     <section className={styles.nav__wrapper}>
+      <div className={styles.burger}>
+        <GiHamburgerMenu />
+      </div>
       <nav className={styles.primary__nav}>
         <div className={styles.logo}>
           <span className={styles.logo__name}>Nester</span> Construction LLC
