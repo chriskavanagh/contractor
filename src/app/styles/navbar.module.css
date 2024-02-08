@@ -1,9 +1,14 @@
 .nav__wrapper {
   background-color: rgba(211, 211, 211, 0.663);
-  color: #ffd700;
+  color: black;
   min-width: 100%;
-  padding: 0.8rem 0 1.2rem 0;
+  padding: 1.5rem 0;
   box-sizing: border-box;
+}
+
+.burger {
+  display: none;
+  position: relative;
 }
 
 .primary__nav {
@@ -26,7 +31,7 @@
 
 .nav__item {
   margin: 0 0.8rem 0 0.8rem;
-  font-size: 16px;
+  font-size: 17px;
   color: rgb(112, 87, 23);
   cursor: pointer;
   position: relative;
@@ -36,10 +41,11 @@
   font-family: "Cascadia Mono";
   color: rgb(112, 87, 23);
   margin-left: 3rem;
+  font-size: 21px;
 }
 
 .logo__name {
-  font-size: 19px;
+  font-size: 24px;
   font-style: italic;
   color: rgb(152, 111, 8);
   text-decoration: underline;
