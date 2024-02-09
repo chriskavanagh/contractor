@@ -43,6 +43,7 @@ export default function Sidedrawer() {
                 <AiFillPhone className={styles.icon__react} /> Contact
               </Link>
             </li>
+            <hr className={styles.line} />
           </ul>
         </nav>
       )}
