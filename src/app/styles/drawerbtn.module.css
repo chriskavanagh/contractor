@@ -1,0 +1,20 @@
+.burger {
+  /* display: none; */
+  position: relative;
+  display: block;
+  left: 10px;
+  top: 35.3px;
+  font-size: 28px;
+  cursor: pointer;
+  color: red;
+}
+
+@media only screen and (min-width: 18.75em) and (max-width: 46em) {
+  .burger {
+    display: block;
+    left: 10px;
+    top: 35.3px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+}

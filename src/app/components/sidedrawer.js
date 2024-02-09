@@ -1,12 +1,18 @@
+"use client";
+
+import "../globals.css";
+import { useContext } from "react";
+import { Drawer } from "../context/context";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "../styles/sidedrawer.module.css";
 import { AiFillHome, AiFillFormatPainter, AiFillPhone, AiOutlineTeam } from "react-icons/ai";
 
-export default function sidedrawer() {
+export default function Sidedrawer() {
+  const { drawer } = useContext(Drawer);
   const pathname = usePathname();
   <section className={styles.drawer__wrapper}>
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
       <ul className={styles.list}>
         <li className={styles.list__item}>
           <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">

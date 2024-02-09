@@ -134,6 +134,11 @@ a {
   fill: rgba(255, 255, 255, 0.5);
 }
 
+/* drawer context */
+.open {
+  transform: translateX(0);
+}
+
 @media only screen and (max-width: 45em) {
   [class^="number-slide"],
   [class*="number-slide"] {
