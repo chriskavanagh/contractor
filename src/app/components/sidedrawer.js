@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { Drawer } from "../context/context";
 import { usePathname } from "next/navigation";
 import styles from "../styles/sidedrawer.module.css";
-import { IoCloseCircleOutline } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillHome, AiFillFormatPainter, AiFillPhone, AiOutlineTeam } from "react-icons/ai";
 
 export default function Sidedrawer() {
@@ -21,7 +21,7 @@ export default function Sidedrawer() {
     <section className={styles.drawer__wrapper}>
       {drawer == true && (
         <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
-          <IoCloseCircleOutline className={styles.close} onClick={clickHandler} />
+          <GiHamburgerMenu className={styles.close} onClick={clickHandler} />
           <ul className={styles.list}>
             <li className={styles.list__item}>
               <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">

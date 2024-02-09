@@ -53,9 +53,10 @@
 .close {
   transform: translateX(-100);
   font-size: 22px;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 30px;
   color: black;
+  position: relative;
 }
 
 .line {
