@@ -1,11 +1,12 @@
 .drawer__wrapper {
   /* min-height: 100vh; */
   padding: 0 10px 0 10px;
+  background-color: #a3862f;
 }
 
 .nav {
   height: 100%;
-  background: white;
+  background-color: #faf9f6;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -20,6 +21,7 @@
 
 .icon__react {
   margin-right: 22px;
+  color: rgb(255, 215, 0);
 }
 
 .open {
@@ -54,8 +56,8 @@
 .close {
   transform: translateX(-100);
   font-size: 30px;
-  top: 10px;
-  left: 24px;
+  top: 4px;
+  left: 4px;
   color: black;
   position: relative;
   cursor: pointer;
