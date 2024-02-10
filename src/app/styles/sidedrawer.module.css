@@ -53,9 +53,9 @@
 
 .close {
   transform: translateX(-100);
-  font-size: 34px;
+  font-size: 30px;
   top: 10px;
-  left: 30px;
+  left: 28px;
   color: black;
   position: relative;
   cursor: pointer;
