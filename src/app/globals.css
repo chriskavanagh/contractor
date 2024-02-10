@@ -24,7 +24,7 @@
 
 html,
 body {
-  max-height: 100vh;
+  min-height: 100vh;
   min-width: 100vw;
   width: 100vw;
   /* max-height: 100vh; */
@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-height: 100vh;
 }
 
 a {
@@ -59,7 +60,7 @@ a {
 } */
 
 .keen-slider__slide {
-  /* height: 100vh; */
+  height: 100vh;
   width: 100vw;
   margin-bottom: 2rem;
 }
