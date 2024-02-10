@@ -24,7 +24,7 @@
 
 html,
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   min-width: 100vw;
   width: 100vw;
   /* max-height: 100vh; */
@@ -114,7 +114,7 @@ a {
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 70%;
+  top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   fill: rgba(211, 211, 211);
@@ -134,10 +134,15 @@ a {
   fill: rgba(255, 255, 255, 0.5);
 }
 
+/* drawer context */
+.open {
+  transform: translateX(0);
+}
+
 @media only screen and (max-width: 45em) {
   [class^="number-slide"],
   [class*="number-slide"] {
-    height: 400px;
+    height: 375px;
     max-height: 100vh;
   }
 }

@@ -1,10 +1,11 @@
-import { Inter } from "next/font/google";
 import { Roboto } from "next/font/google";
 import Navbar from "./components/navbar";
 import BottomMenu from "./components/bottommenu";
 import Footer from "./components/footer";
+import Sidedrawer from "./components/sidedrawer";
+import Context from "./context/context";
 
-const inter = Inter({ subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
 const robo = Roboto({
   subsets: ["latin"],
   weight: "400",
@@ -20,10 +21,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={robo.variable}>
-        <Navbar />
-        <BottomMenu />
-        {children}
-        <Footer />
+        <Context>
+          <Navbar />
+          <BottomMenu />
+          {children}
+          <Sidedrawer />
+          <Footer />
+        </Context>
       </body>
     </html>
   );
