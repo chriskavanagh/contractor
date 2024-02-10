@@ -10,8 +10,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 35%;
-  max-width: 300px;
+  width: 50%;
+  max-width: 350px;
   z-index: 20000;
   transform: translateX(-100);
   /* transform: translateX; */
