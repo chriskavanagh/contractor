@@ -1,7 +1,7 @@
 .drawer__wrapper {
   /* min-height: 100vh; */
   padding: 0 10px 0 10px;
-  background-color: #a3862f;
+  background-color: gray;
 }
 
 .nav {
@@ -21,7 +21,7 @@
 
 .icon__react {
   margin-right: 22px;
-  color: rgb(255, 215, 0);
+  color: #a3862f;
 }
 
 .open {
@@ -47,6 +47,8 @@
 .list__item {
   font-size: 16px;
   padding: 5px 9px;
+  color: darkgray;
+  font-weight: 800;
 }
 
 .list__item:hover {
@@ -72,4 +74,15 @@
 
 .name {
   color: black;
+}
+
+.name__txt {
+  font-size: 20px;
+  color: red;
+}
+
+.txt {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
 }

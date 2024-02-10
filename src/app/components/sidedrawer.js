@@ -20,32 +20,38 @@ export default function Sidedrawer() {
   return (
     <section className={styles.drawer__wrapper}>
       {drawer == true && (
-        <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
-          <GiHamburgerMenu className={styles.close} onClick={clickHandler} />
-          <ul className={styles.list}>
-            <li className={styles.list__item}>
-              <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
-                <AiFillHome className={styles.icon__react} /> Home
-              </Link>
-            </li>
-            <li className={styles.list__item}>
-              <Link className={`link ${pathname === "/services" ? "active" : ""}`} href="/services">
-                <AiFillFormatPainter className={styles.icon__react} /> Services
-              </Link>
-            </li>
-            <li className={styles.list__item}>
-              <Link className={`link ${pathname === "/about" ? "active" : ""}`} href="/about">
-                <AiOutlineTeam className={styles.icon__react} /> About
-              </Link>
-            </li>
-            <li className={styles.list__item}>
-              <Link className={`link ${pathname === "/contact" ? "active" : ""}`} href="/contact">
-                <AiFillPhone className={styles.icon__react} /> Contact
-              </Link>
-            </li>
-            <hr className={styles.line} />
-          </ul>
-        </nav>
+        <>
+          <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
+            <GiHamburgerMenu className={styles.close} onClick={clickHandler} />
+            <ul className={styles.list}>
+              <li className={styles.list__item}>
+                <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
+                  <AiFillHome className={styles.icon__react} /> Home
+                </Link>
+              </li>
+              <li className={styles.list__item}>
+                <Link
+                  className={`link ${pathname === "/services" ? "active" : ""}`}
+                  href="/services"
+                >
+                  <AiFillFormatPainter className={styles.icon__react} /> Services
+                </Link>
+              </li>
+              <li className={styles.list__item}>
+                <Link className={`link ${pathname === "/about" ? "active" : ""}`} href="/about">
+                  <AiOutlineTeam className={styles.icon__react} /> About
+                </Link>
+              </li>
+              <li className={styles.list__item}>
+                <Link className={`link ${pathname === "/contact" ? "active" : ""}`} href="/contact">
+                  <AiFillPhone className={styles.icon__react} /> Contact
+                </Link>
+              </li>
+              <hr className={styles.line} />
+              <li className={styles.txt}>Nester Construction</li>
+            </ul>
+          </nav>
+        </>
       )}
     </section>
   );
