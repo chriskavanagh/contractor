@@ -10,8 +10,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 50%;
-  max-width: 400px;
+  width: 35%;
+  max-width: 300px;
   z-index: 20000;
   transform: translateX(-100);
   /* transform: translateX; */
@@ -38,7 +38,8 @@
   padding-right: 40px;
   padding-left: 25px;
   padding-bottom: 35px;
-  row-gap: 15px;
+  row-gap: 13px;
+  margin-top: 1.3rem;
 }
 
 .list__item {
@@ -52,11 +53,15 @@
 
 .close {
   transform: translateX(-100);
-  font-size: 22px;
+  font-size: 34px;
   top: 10px;
   left: 30px;
   color: black;
   position: relative;
+  cursor: pointer;
+  border: 1px black solid;
+  border-radius: 6px;
+  padding: 3px 6px;
 }
 
 .line {

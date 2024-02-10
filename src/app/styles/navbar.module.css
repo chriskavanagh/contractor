@@ -102,9 +102,12 @@
   .burger {
     display: block;
     left: 8px;
-    top: 30px;
-    font-size: 30px;
+    top: 34px;
+    font-size: 34px;
     cursor: pointer;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 3px 6px;
   }
 
   .nav__item {
