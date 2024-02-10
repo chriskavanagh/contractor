@@ -24,7 +24,7 @@
 
 html,
 body {
-  max-height: 100vh;
+  min-height: 100vh;
   min-width: 100vw;
   width: 100vw;
   /* max-height: 100vh; */
@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-height: 100vh;
 }
 
 a {
