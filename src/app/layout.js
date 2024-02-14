@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 import BottomMenu from "./components/bottommenu";
 import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
 const robo = Roboto({
   subsets: ["latin"],
   weight: "400",
