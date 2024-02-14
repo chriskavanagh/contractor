@@ -1,5 +1,6 @@
 import styles from "../styles/maincontent.module.css";
 import { AiFillPhone } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 export default function MainContent() {
   return (
@@ -7,18 +8,18 @@ export default function MainContent() {
       <div>
         <h1 className={styles.title}>Nester Contruction &amp; Remodeling</h1>
         <h2 className={styles.subtitle}>
-          Your Go To Source For All Construction/Remodeling Needs, And More!
+          Your Go To Source For All Construction/Remodeling Needs & More!
         </h2>
       </div>
       <div className={styles.decription}>
         <p className={styles.para}>
           Nester Construction is a family owned business which has served the Roanoke Valley, Salem,
-          Vinton, Bedford area for over 30 years. We also do work in North Carolina.
+          Vinton, Bedford area for over 30 years. We also work in North Carolina.
         </p>
         <br />
         <p className={styles.para}>
           Old, leaky roof? Your home needs a coat of fresh paint? Nester Construction/Remodelling
-          will install your new roof and/or paint your house so it looks indoors or outdoors. .
+          will install your new roof and/or paint your house so it looks great indoors and outdoors.
         </p>
         <br />
         <p className={styles.para}>
@@ -36,6 +37,9 @@ export default function MainContent() {
         <span className={styles.phone}>
           <AiFillPhone color="rgb(142, 5, 5)" /> 540-397-8715
         </span>
+        <div className={styles.email}>
+          <MdEmail color="#C6011F" /> darrylnester@gmail.com
+        </div>
       </div>
     </section>
   );

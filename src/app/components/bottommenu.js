@@ -23,23 +23,23 @@ export default function BottomMenu({ children }) {
             </span>
             Additions
           </li>
-          <li className={styles.menu__item}>
+          <li className={`${styles.menu__item} ${styles.remodel}`}>
             <span className={styles.icon__space}>
               <PiWarehouseFill color="#FFD700" />
             </span>
-            Remodeling
+            Remodel
           </li>
           <li className={styles.menu__item}>
             <span className={styles.icon__space}>
               <GiKitchenTap color="#FFD700" />
             </span>
-            Kitchen & Baths
+            Kitchen/Baths
           </li>
           <li className={styles.menu__item}>
             <span className={styles.icon__space}>
               <MdOutlineDeck color="#FFD700" />
             </span>
-            Decks & Porches
+            Decks/Porches
           </li>
         </ul>
       </div>

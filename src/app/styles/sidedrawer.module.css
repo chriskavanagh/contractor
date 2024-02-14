@@ -1,0 +1,88 @@
+.drawer__wrapper {
+  /* min-height: 100vh; */
+  padding: 0 10px 0 10px;
+  background-color: gray;
+}
+
+.nav {
+  height: 100%;
+  background-color: #faf9f6;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  max-width: 500px;
+  z-index: 20000;
+  transform: translateX(-100);
+  /* transform: translateX; */
+  /* transition: transform 0.5s ease-out; */
+}
+
+.icon__react {
+  margin-right: 22px;
+  color: #a3862f;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.list {
+  list-style: none;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  position: relative;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 25px;
+  padding-bottom: 35px;
+  row-gap: 13px;
+  margin-top: 1.3rem;
+}
+
+.list__item {
+  font-size: 16px;
+  padding: 5px 9px;
+  color: darkgray;
+  font-weight: 800;
+}
+
+.list__item:hover {
+  background-color: lightgray;
+}
+
+.close {
+  transform: translateX(-100);
+  font-size: 30px;
+  top: 5px;
+  left: 5px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  border: 1px black solid;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.line {
+  min-width: 100%;
+}
+
+.name {
+  color: black;
+}
+
+.name__txt {
+  font-size: 20px;
+  color: red;
+}
+
+.txt {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+}

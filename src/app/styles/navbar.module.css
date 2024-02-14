@@ -1,53 +1,58 @@
+.nav__wrapper {
+  background-color: rgba(211, 211, 211, 0.663);
+  color: black;
+  min-width: 100%;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+}
+.burger {
+  display: none;
+  position: relative;
+}
+
 .primary__nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-}
-
-.nav__wrapper {
-  margin-bottom: 0px;
-  background-color: rgba(211, 211, 211, 0.663);
-  padding: 1rem 0 1rem 0;
-  color: #ffd700;
-  box-sizing: border-box;
 }
 
 .navbar__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-right: 6rem;
   list-style: none;
   overflow: hidden;
-}
-
-.logo {
-  font-family: "Cascadia Mono";
-  color: rgb(112, 87, 23);
-  margin-left: 1.6rem;
-}
-
-.logo__name {
-  font-size: 19px;
-  font-style: italic;
-  color: rgb(152, 111, 8);
-  text-decoration: underline;
+  /* min-width: 100%; */
+  /* margin: 0 3rem 0 auto; */
 }
 
 .nav__item {
-  margin: 0 2rem 0 1rem;
-  font-size: 15px;
+  margin: 0 0.8rem 0 0.8rem;
+  font-size: 17px;
   color: rgb(112, 87, 23);
   cursor: pointer;
   position: relative;
 }
 
+.logo {
+  font-family: "Cascadia Mono";
+  color: rgb(112, 87, 23);
+  margin-left: 3rem;
+  font-size: 21px;
+}
+
+.logo__name {
+  font-size: 24px;
+  font-style: italic;
+  color: rgb(152, 111, 8);
+  text-decoration: underline;
+}
+
 .nav__hover:hover {
   color: #cd7324e3;
   font-size: 15px;
-  border: 1px red solid;
-  padding: 2px 1px;
 }
 
 .active {
@@ -68,4 +73,66 @@
   color: rgb(112, 87, 23);
   font-family: "Droid Sans Mono", sans-serif;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 18.75em) and (max-width: 46em) {
+  .nav__wrapper {
+    min-width: 100vw;
+    padding: 0;
+  }
+
+  .primary__nav {
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .navbar__list {
+    display: none;
+    /* padding-right: 0rem;
+    min-width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray; */
+  }
+
+  .burger {
+    display: block;
+    left: 8px;
+    top: 30px;
+    font-size: 32px;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 3px 8px;
+  }
+
+  .nav__item {
+    font-size: 14px;
+    /* padding: 0 2px 0 2px; */
+    color: white;
+  }
+
+  .nav__hover:hover {
+    color: #cd7324e3;
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 27px;
+    font-size: 21px;
+  }
+
+  .logo__name {
+    font-size: 23px;
+  }
+
+  .icon__react {
+    color: #ffd700;
+  }
 }

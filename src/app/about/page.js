@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className={styles.about}>
       <div>
-        <h1 className={styles.top__header}>About Us</h1>
+        <h1 className={styles.top__header}>Our Story</h1>
       </div>
       <div className={styles.content}>
         <p className={styles.item}>
@@ -13,9 +13,9 @@ export default function About() {
           "President" of the business and kept it running strong.
         </p>
         <p className={styles.item}>
-          Darryl who is still resides as the <span className={styles.boss}>BOSS</span>/President of
-          the Company, still goes to work every day. Although the Company had been successful for
-          many years, Darryl took it to a higher level of success which is going on today.
+          Darryl who still resides as the <span className={styles.boss}>BOSS</span>/President of the
+          Company, still goes to work every day. Although the Company has been successful for many
+          years, Darryl took it to a higher level of success which is ongoing today.
         </p>
         <p className={styles.item}>
           Roofing was the bread and butter of the Company. Hundreds of houses and business have had
