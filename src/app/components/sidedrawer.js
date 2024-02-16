@@ -28,7 +28,7 @@ export default function Sidedrawer() {
         <>
           <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
             <GiHamburgerMenu
-              size={"2.4em"}
+              size={"2.7em"}
               className={styles.close}
               onClick={clickHandler}
             />
@@ -67,7 +67,7 @@ export default function Sidedrawer() {
                 </Link>
               </li>
               <hr className={styles.line} />
-              <li className={styles.txt}>Nester Construction</li>
+              <li className={styles.txt}>Nester Construction & Remodelling</li>
             </ul>
           </nav>
         </>
