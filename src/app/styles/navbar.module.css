@@ -107,7 +107,7 @@
     cursor: pointer;
     border: 0.0625px black solid;
     border-radius: 0.4rem;
-    padding: 0.19rem 0.625rem 0.19rem 0rem;
+    padding: 0.19rem 0.625rem 0.19rem 0.625rem;
   }
 
   .nav__item {
