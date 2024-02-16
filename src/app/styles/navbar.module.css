@@ -103,7 +103,7 @@
     display: block;
     left: 8px;
     top: 30px;
-    font-size: 32px;
+    font-size: 35px;
     cursor: pointer;
     border: 1px black solid;
     border-radius: 6px;
@@ -129,7 +129,7 @@
   }
 
   .logo__name {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .icon__react {
