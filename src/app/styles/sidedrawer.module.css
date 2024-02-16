@@ -81,7 +81,15 @@
 }
 
 .txt {
-  margin: 25px auto 0px 10px;
+  margin: 24px auto 10px 10px;
   font-size: 22px;
   font-weight: 700;
+}
+.phone {
+  font-size: 16px;
+  margin: 0 auto 0 auto;
+}
+.email {
+  font-size: 16px;
+  margin-top: 5px;
 }

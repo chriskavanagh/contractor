@@ -13,6 +13,7 @@ import {
   AiFillPhone,
   AiOutlineTeam,
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 export default function Sidedrawer() {
   const pathname = usePathname();
@@ -68,6 +69,16 @@ export default function Sidedrawer() {
               </li>
               <hr className={styles.line} />
               <li className={styles.txt}>Nester Construction & Remodelling</li>
+              <li>
+                <span className={styles.phone}>
+                  <AiFillPhone color="rgb(142, 5, 5)" /> 540-397-8715
+                </span>
+              </li>
+              <li>
+                <div className={styles.email}>
+                  <MdEmail color="#C6011F" /> darrylnester@gmail.com
+                </div>
+              </li>
             </ul>
           </nav>
         </>
