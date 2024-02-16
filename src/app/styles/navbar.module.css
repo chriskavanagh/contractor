@@ -102,7 +102,7 @@
   .burger {
     display: block;
     left: 5px;
-    top: 5px;
+    top: 15px;
     font-size: 30px;
     cursor: pointer;
     border: 0.0625px black solid;
