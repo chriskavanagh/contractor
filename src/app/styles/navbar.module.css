@@ -101,7 +101,7 @@
 
   .burger {
     display: block;
-    left: 3px;
+    left: 2px;
     top: 35px;
     /* font-size: 30px; */
     cursor: pointer;
