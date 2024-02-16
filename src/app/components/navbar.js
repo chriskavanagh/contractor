@@ -29,7 +29,7 @@ export default function Navbar({ children }) {
   return (
     <section className={styles.nav__wrapper}>
       <GiHamburgerMenu
-        size={"1.2em"}
+        size={"1.5em"}
         className={styles.burger}
         onClick={clickHandler}
       />
