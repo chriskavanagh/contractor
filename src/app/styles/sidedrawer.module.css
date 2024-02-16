@@ -68,6 +68,7 @@
 
 .line {
   min-width: 100%;
+  margin: 15px auto 5px auto;
 }
 
 .name {
