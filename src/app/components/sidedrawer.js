@@ -28,7 +28,7 @@ export default function Sidedrawer() {
         <>
           <nav className={`${styles.nav} ${drawer === true ? " open" : ""}`}>
             <GiHamburgerMenu
-              size={"1.8em"}
+              size={"2.1em"}
               className={styles.close}
               onClick={clickHandler}
             />
