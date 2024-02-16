@@ -101,9 +101,9 @@
 
   .burger {
     display: block;
-    left: 0.75rem;
+    left: 0.3rem;
     top: 1.875rem;
-    font-size: 1.875rem;
+    font-size: 2rem;
     cursor: pointer;
     border: 0.0625px black solid;
     border-radius: 0.4rem;
