@@ -103,10 +103,10 @@
     display: block;
     left: 5px;
     top: 30px;
-    font-size: 30px;
+    /* font-size: 30px; */
     cursor: pointer;
-    border-radius: 0.4rem;
-    padding: 0.19rem 0.625rem 0.19rem 0.625rem;
+    border-radius: 6px;
+    padding: 3px 6px;
   }
 
   .nav__item {
