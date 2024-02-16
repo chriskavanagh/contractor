@@ -101,17 +101,17 @@
 
   .burger {
     display: block;
-    left: 8px;
-    top: 30px;
-    font-size: 35px;
+    left: 0.75rem;
+    top: 1.875rem;
+    font-size: 1.875rem;
     cursor: pointer;
-    border: 1px black solid;
-    border-radius: 6px;
-    padding: 3px 10px;
+    border: 0.0625px black solid;
+    border-radius: 0.4rem;
+    padding: 0.19px 0.625rem;
   }
 
   .nav__item {
-    font-size: 14px;
+    font-size: 1rem;
     /* padding: 0 2px 0 2px; */
     color: white;
   }
