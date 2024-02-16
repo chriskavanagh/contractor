@@ -71,13 +71,8 @@ export default function Sidedrawer() {
               <li className={styles.txt}>Nester Construction & Remodelling</li>
               <li>
                 <span className={styles.phone}>
-                  <AiFillPhone color="rgb(142, 5, 5)" /> 540-397-8715
+                  <AiFillPhone color="#a3862f" /> 540-397-8715
                 </span>
-              </li>
-              <li>
-                <div className={styles.email}>
-                  <MdEmail color="#C6011F" /> darrylnester@gmail.com
-                </div>
               </li>
             </ul>
           </nav>
