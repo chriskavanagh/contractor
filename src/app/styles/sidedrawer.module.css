@@ -57,13 +57,11 @@
 
 .close {
   transform: translateX(-100);
-  /* font-size: 30px; */
   top: 5px;
   left: 5px;
   color: black;
   position: relative;
   cursor: pointer;
-  /* border: 1px black solid; */
   border-radius: 3px;
   padding: 3px 6px;
 }
@@ -82,8 +80,7 @@
 }
 
 .txt {
-  margin: 0 auto;
+  margin: 35px auto 10px 0px;
   font-size: 22px;
   font-weight: 700;
-  margin-left: 10px;
 }
